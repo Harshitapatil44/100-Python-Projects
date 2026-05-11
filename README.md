@@ -41,4 +41,4 @@ Technologies Used :-
 
 Author :- 
 Harshita Patil  
-Aspiring Software Developer | Python Learner
+Python Learner
