@@ -1,7 +1,4 @@
-# Tic Tac Toe Game in Python
-
 board = [" " for _ in range(9)]
-
 
 def print_board():
     print()
@@ -11,7 +8,6 @@ def print_board():
     print("---|---|---")
     print(f" {board[6]} | {board[7]} | {board[8]} ")
     print()
-
 
 def check_winner(player):
     win_positions = [
@@ -31,23 +27,18 @@ def check_winner(player):
 
     return False
 
-
 def is_draw():
     return " " not in board
-
 
 current_player = "X"
 
 while True:
     print_board()
-
     try:
         move = int(input(f"Player {current_player}, enter position (1-9): ")) - 1
-
         if move < 0 or move > 8:
             print("Invalid position! Choose between 1 and 9.")
             continue
-
         if board[move] != " ":
             print("Position already taken!")
             continue
@@ -58,13 +49,15 @@ while True:
             print_board()
             print(f"Player {current_player} wins!")
             break
-
         if is_draw():
             print_board()
             print("It's a draw!")
             break
 
         current_player = "O" if current_player == "X" else "X"
-
+        
     except ValueError:
         print("Please enter a valid number.")
+
+
+
