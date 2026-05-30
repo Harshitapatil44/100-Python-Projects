@@ -1,11 +1,11 @@
-100 Python Programs Challenge :- 
+# 100 Python Programs Challenge :- 
 This repository contains a collection of **100 Python programs** created to practice and demonstrate my Python programming skills. The goal of this repository is to strengthen problem-solving ability, improve coding logic, and build a solid foundation in Python.
 
-About the Project :- 
+## About the Project :- 
 This repository includes Python programs covering basic to intermediate programming concepts such as loops, functions, data structures, file handling, and problem-solving exercises.
 Each program focuses on building logical thinking and improving coding efficiency.
 
-Topics Covered :- 
+## Topics Covered :- 
 - Variables and Data Types
 - Conditional Statements
 - Loops (for, while)
@@ -17,10 +17,10 @@ Topics Covered :-
 - Basic Algorithms
 - Problem Solving Exercises
 
-Repository Structure :- 
+## Repository Structure :- 
 Programs are organized by topic for better readability.
 
-Example:
+## Example:
  Python Programs
  Basics
  Loops
@@ -30,17 +30,17 @@ Example:
  File Handling
  Problem Solving
 
-Goals of this Repository :- 
+## Goals of this Repository :- 
 - Practice Python programming regularly
 - Improve logical thinking and debugging skills
 - Build a public record of coding progress
 - Strengthen preparation for coding interviews
 
-Technologies Used :- 
+## Technologies Used :- 
 - Python 3
 
 This repository is continuously updated with new problems and concepts as part of my learning journey in Python.
 
-Author :- 
-Harshita Patil  
+## Author :- 
+**Harshita Patil**  
 Python Learner
