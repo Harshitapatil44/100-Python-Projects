@@ -44,7 +44,6 @@ def solve(board):
     for num in range(1, 10):
         if is_valid(board, num, (row, col)):
             board[row][col] = num
-
             if solve(board):
                 return True
 
