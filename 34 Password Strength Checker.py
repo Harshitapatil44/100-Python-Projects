@@ -5,26 +5,16 @@ strength = 0
 # Length check
 if len(password) >= 8:
     strength += 1
-
-# Uppercase check
 if any(char.isupper() for char in password):
     strength += 1
-
-# Lowercase check
 if any(char.islower() for char in password):
     strength += 1
-
-# Digit check
 if any(char.isdigit() for char in password):
     strength += 1
-
-# Special character check
 special = "!@#$%^&*()_+-=[]{}|;:',.<>?/"
 
 if any(char in special for char in password):
     strength += 1
-
-# Result
 if strength == 5:
     print("Strong Password")
 elif strength >= 3:
